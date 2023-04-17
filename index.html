@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Squites</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="contenedor">
+      
+      <div class="formulario">
+        <h1>Formulario</h1>
+      <form action="formulario.php" method="post"></form>
+
+      <label for="cliente">nombre de cliente </label>    
+      <input type="text" name="cliente"  id="cliente"> <br>
+      <label for="psw">password</label>
+      <input type="password" name="psw" id="psw"> <br>
+      <label for="tamanio vaso ">tamanio vaso</label>
+      <input type="number" name="tamanio vaso" id="tamanio vaso" min="10" max="15" step="1"> <br>
+
+
+
+    <select name="opcion1" id="opcion1">
+    <option value="opcion1 ">del que pica </option>
+    <option value="opcion2">del que no pica</option>
+    <option value="opcion2">de arbol</option>
+    <option value="opcion2">de chapulin</option></select><br>
+
+
+      <label for="rango">cantidad de chile</label>
+      <input type="range" min="10" max="15" step="1" name="rango" id="rango"> <br>
+
+
+      
+      <label for="limon">con limon</label>
+      <input  type="radio" name="opciones" id="opcion7" value="si">
+      <label for="opcion7">si</label>
+      <input type="radio" name="opciones" id="opcion2" value="no">
+      <label for="opcion2">no</label><br>
+
+
+      <input type="checkbox" name="opciones" id="opcion5" value="opcion 5">
+      <label for="opcion5">ingrediente extra</label>
+
+      <input type="checkbox" name="opciones" id="opcion6" value="opcion 6">
+      <label for="opcion6">buffalo</label>
+
+      <input type="checkbox" name="opciones" id="opcion3" value="opcion 3">
+      <label for="opcion3">valentina</label><br>
+
+      <input type="checkbox" name="opciones" id="opcion4" value="opcion 4">
+      <label for="opcion4">tajin</label><br>
+
+      <textarea name="area1" id="area1" cols="30" rows="10">comentario extra</textarea><br>
+
+      <input type="submit" value="pedir">
+
+
+      </div>
+    </div>
+  </body>
+</html>
